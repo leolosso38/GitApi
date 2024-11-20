@@ -1,0 +1,29 @@
+/*modo oscuro*/
+
+body.dark-mode {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+}
+
+button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+body.dark-mode button {
+  background-color: #333; /* Botón oscuro */
+  color: #fff; /* Texto blanco en el botón */
+  border: 1px solid #444;
+}
+
+body.dark-mode button:hover {
+  background-color: #555;
+}
