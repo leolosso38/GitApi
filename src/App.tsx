@@ -26,9 +26,9 @@ const App = () => {
   // Este useEffect aplica la clase "dark-mode" al body cuando el estado cambia
   useEffect(() => {
     if (darkMode) {
-      document.body.classList.add('dark-mode'); // Agregar clase al body
+      document.body.classList.add('dark-mode'); // Agrega clase dark-mode al body
     } else {
-      document.body.classList.remove('dark-mode'); // Eliminar la clase del body
+      document.body.classList.remove('dark-mode'); // Elimina la clase del body
     }
   }, [darkMode]); // Solo se ejecutará cuando darkMode cambie
 
