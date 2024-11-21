@@ -13,8 +13,7 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 
     const handleSearch = () => {
 
-
-        onSearch(input);
+        onSearch(input.trim());
     }
 
     return (
