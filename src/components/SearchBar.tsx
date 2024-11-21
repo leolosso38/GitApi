@@ -13,9 +13,12 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 
     const handleSearch = () => {
 
-        if (input.trim() || input == "") {
+        if (input == "") {
             onSearch(input);
 
+        }
+        else {
+            onSearch(input);
         }
     };
 
@@ -25,7 +28,7 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
                 <input
                     type="text"
                     className="form-control"
-                    placeholder={input ? "" : "Buscar usuario de GitHub"}
+                    placeholder={"Buscar usuario de GitHub"}
                     value={input}
                     onChange={handleInputChange}
 
