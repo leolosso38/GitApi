@@ -13,14 +13,9 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 
     const handleSearch = () => {
 
-        if (input == "") {
-            onSearch(input);
 
-        }
-        else {
-            onSearch(input);
-        }
-    };
+        onSearch(input);
+    }
 
     return (
         <div className="mb-3">
