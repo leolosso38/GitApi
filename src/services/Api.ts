@@ -1,16 +1,3 @@
-// import axios from "axios";
-
-// const BASE_URL = "https://api.github.com/users";
-
-// export const fetchUser = async (username: string) => {
-//   try {
-//     const response = await axios.get(`${BASE_URL}/${username}`);
-//     return response.data;
-//   } catch (error) {
-//     throw new Error("Usuario no encontrado");
-//   }
-// };
-
 const BASE_URL = "https://api.github.com/users";
 
 export const fetchUser = async (username: string) => {
